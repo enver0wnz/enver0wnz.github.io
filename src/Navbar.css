@@ -1,0 +1,57 @@
+.NavbarBox {
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  align-items: center;
+  color: black;
+}
+#navbar-ul1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+}
+#navbar-ul1 li {
+  position: relative;
+  list-style: none;
+  transition: 0.6s;
+  margin: 0 15px;
+}
+#navbar-ul1 li a {
+  position: relative;
+  text-decoration: none;
+}
+.LogoLinks {
+  transition: 0.4s;
+}
+.LogoLinks:hover {
+  transform: translateY(-1px);
+  filter: drop-shadow(0 0 0.2rem rgb(11, 10, 11));
+}
+.LogoLinks:active {
+  transform: translateY(1px);
+  filter: drop-shadow(0 0 0.1rem rgb(11, 10, 11));
+}
+#youtubeLogo {
+  height: 40px;
+  width: 40px;
+}
+#YoutubeLogoLink {
+  display: inline-block;
+}
+#twitterLogo {
+  height: 40px;
+  width: 40px;
+}
+#TwitterLogoLink { 
+  display: inline-block;
+}
+#twitchLogo {
+  height: 40px;
+  width: 40px;
+}
+#TwitchLogoLink { 
+  display: inline-block;
+}

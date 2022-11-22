@@ -1,0 +1,82 @@
+.Homepage-Card {
+  background-color: rgb(232, 232, 232);
+  display: grid;
+  width: 100%;
+  height: 300px;
+  grid-template-rows: 30% 20% 55%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #b7cddf9d;
+  border-radius: 0.2rem;
+  padding-top: 20px;
+  transition: 1s;
+}
+.Homepage-Card:hover {
+  transform: translateY(-5px);
+  filter: drop-shadow(0 0 0.25rem rgba(16, 16, 16, 0.2));
+}
+.card-title {
+  font-family: 'Open Sans', sans-serif;
+  color: #676770;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin: 0;
+  margin-top: 10px;
+}
+.card-data {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #728994;
+  justify-self: center;
+  align-self: flex-start;
+}
+.card-data p {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+}
+.circle-div-1 {
+  background-color: rgb(232, 232, 232);
+  border: 1px solid #69b9ff;
+  height: 100px;
+  width: 100px;
+  border-radius: 5rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.circle-div-2 {
+  display: flex;
+  background-color: #69b9ff;
+  border-radius: 5rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+}
+.card-icon {
+  width: 32px;
+  height: 32px;
+}
+#cards-div {
+  display: grid;
+  justify-content: center;
+  width: 65%;
+  gap: 1rem;
+  grid-template-columns: 33% 33% 33%;
+  opacity: 0;
+  transition: 1s;
+}
+.active {
+  transform: translateY(-20px);
+  /* animation: 2s ease 0s slideInUp; */
+  opacity: 1 !important;
+}
